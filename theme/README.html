@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="wte-wordpressthemeeasy">WTE - WordPress Theme Easy</h1>
+
+<p>Easy WordPress theme development.</p>
+
+<p>This project uses the dependencies:</p>
+
+<ul>
+<li><a href="https://getbootstrap.com/docs/4.0">Bootstrap</a></li>
+<li><a href="https://github.com/kenwheeler/cash">Cash Dom</a></li>
+<li><a href="https://www.npmjs.com/package/font-awesome">Font Awesome</a></li>
+<li><a href="https://www.npmjs.com/package/owl.carousel">Owl Carousel</a></li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>To use this theme you must have installed the latest stable version of <a href="https://nodejs.org/en/">node</a></p>
+
+<p>We use node because we like performance, and CDN acquisition, besides importing unnecessary resources,</p>
+
+<p>depends on a stable connection.</p>
+
+<h2 id="download">Download</h2>
+
+<p>You can clone the project or simply download it using:</p>
+
+<pre><code>wget --no-check-certificate --content-disposition https://github.com/MatheusKindrazki/wpdc/archive/v.0.0.2.zip
+# --no-check-cerftificate was necessary for me to have wget not puke about https
+curl -LJO https://github.com/MatheusKindrazki/wpdc/archive/v.0.0.2.zip
+</code></pre>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>To use the theme, just enter the <code>THEME</code> folder and run the command:</p>
+
+<pre><code>yarn
+</code></pre>
+
+<h2 id="installation">Installation</h2>
+
+<p>To install any dependency just run the <code>yarn add</code> command following the lib you want to add:</p>
+
+<pre><code>yarn add bootstrap
+</code></pre>
+
+<p>The theme is divided into two parts.</p>
+
+<ul>
+<li><code>mu-plugins</code> – used to store plugins that are not for updating.</li>
+<li><code>theme</code> – The location of the clean theme files and <code>node_modules</code>.</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="build">Build</h3>
+
+<p>Both sass and js files must be built. We recommend using tools like Prepros or Codekit.</p>
+
+<ul>
+<li><code>./js/main.js</code> – Where all required JS files are imported.</li>
+<li><code>./js/custom</code> – User created files.</li>
+<li><code>./js/bundle</code> – Js file compiled.</li>
+<li><code>./style/sass/style.scss</code> – Where all required SASS files are imported.</li>
+<li><code>./style/sass/custom</code> – User created files.</li>
+<li><code>./style/css</code> – CSS file compiled.</li>
+</ul>
+
+<h3 id="jscompilerconfiguration">JS Compiler Configuration</h3>
+
+<p>If you use the ES6 import structure you need to compile using Babel or another tool of your choice.</p>
+
+<figure>
+<img src="./js.png" alt="js configuration" />
+<figcaption>js configuration</figcaption>
+</figure>
+
+</body>
+</html>
+
