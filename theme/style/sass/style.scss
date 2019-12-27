@@ -1,0 +1,18 @@
+// Fontes
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap");
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Owl.carousel
+@import "../../node_modules/owl.carousel/src/scss/owl.carousel";
+// @import "../../node_modules/owl.carousel/src/scss/owl.theme.default";
+
+// Font Awesome
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@import "mixins";
+@import "variaveis";
+
+// Theme
+@import "custom/initial";
