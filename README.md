@@ -21,9 +21,9 @@ depends on a stable connection.
 You can clone the project or simply download it using:
 
 ```
-wget --no-check-certificate --content-disposition https://github.com/MatheusKindrazki/wpdc/archive/v.0.0.2.zip
+wget --no-check-certificate --content-disposition https://github.com/MatheusKindrazki/easy-wordpress-theme/archive/v1.0.1.zip
 # --no-check-cerftificate was necessary for me to have wget not puke about https
-curl -LJO https://github.com/MatheusKindrazki/wpdc/archive/v.0.0.2.zip
+curl -LJO https://github.com/MatheusKindrazki/easy-wordpress-theme/archive/v1.0.1.zip
 ```
 
 ## Configuration
@@ -64,4 +64,4 @@ Both sass and js files must be built. We recommend using tools like Prepros or C
 
 If you use the ES6 import structure you need to compile using Babel or another tool of your choice.
 
-![js configuration](./js.png)
+![js configuration](./theme/js.png)
